@@ -1,13 +1,13 @@
 #!/bin/bash
 SERVER_NAME= $(hostname)
-TIME=$(date)
+MYTIME=$(date)
 USER_NAME= $(whoami)
 
 echo "Server Name: $SERVER_NAME"
-echo "========================="
+echo "------------------------"
 sleep 3
 
-echo "Sys Time: $TIME"
+echo "Sys Time: $MYTIME"
 echo "-----------------"
 sleep 3
 
