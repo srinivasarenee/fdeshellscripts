@@ -1,6 +1,6 @@
 #!/bin/bash
 SERVER_NAME= $(hostname)
-MYTIME=$(date)
+MYTIME= $(date)
 USER_NAME= $(whoami)
 
 echo "Server Name: $SERVER_NAME"
