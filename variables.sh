@@ -1,4 +1,5 @@
 #!/bin/bash
+
 SERVER_NAME= $(hostname)
 MYTIME= $(date)
 USER_NAME= $(whoami)
