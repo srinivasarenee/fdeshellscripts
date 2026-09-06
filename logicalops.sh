@@ -4,7 +4,7 @@ b=10
 # AND operator
 if [ $a -lt 20 ] && [ $b -lt 20 ]; then
     echo "AND Operator: Both $a and $b are less than 20"
-if
+fi
 
 # OR operator
 
