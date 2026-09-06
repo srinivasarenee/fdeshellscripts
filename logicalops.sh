@@ -9,13 +9,13 @@ fi
 # OR operator
 
 if [ $a -lt 4 ] || [ $b -lt 20 ]; then
-    echo " $a or $b condition"
+    echo "OR Operatior: $a or $b condition"
 
 fi
 
 # ! not equal
 
-if [ ! $a -eq 10] ; then
+if [ ! $a -eq 10 ] ; then
     echo "$a is not equal to 10"
 fi
 
